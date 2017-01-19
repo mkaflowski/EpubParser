@@ -61,7 +61,7 @@ uploadArchives {
 
     repositories.mavenDeployer {
         configuration = configurations.deployLibrary
-        repository(url: 'git:releases://git@bitbucket.org:' + COMPANY + '/' + REPOSITORY_NAME + '.git')
+        repository(url: 'https://mateusz_kaflowski@bitbucket.org/mateusz_kaflowski/bucket-test.git')
 
         uniqueVersion = true
 
